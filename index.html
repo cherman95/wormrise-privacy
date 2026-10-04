@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wormrise Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #FAFAF7;
+    --surface: #FFFFFF;
+    --text: #1B1B22;
+    --text-muted: #5B5B68;
+    --border: #E6E5E0;
+    --accent: #0E93A3;
+    --accent-soft: #E4F5F6;
+    --tag: #C23B7A;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #100F16;
+      --surface: #18171F;
+      --text: #ECECF2;
+      --text-muted: #9C9AAC;
+      --border: #2B2A36;
+      --accent: #33D8E8;
+      --accent-soft: #16323A;
+      --tag: #FF67AC;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", system-ui, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 6rem;
+  }
+  .eyebrow {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--tag);
+    margin: 0 0 0.9rem;
+  }
+  h1 {
+    font-family: "Sora", system-ui, sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.1rem, 5vw, 2.75rem);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.6rem;
+    text-wrap: balance;
+  }
+  .sub {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin: 0 0 2.6rem;
+    max-width: 58ch;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.4rem;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 0.9rem 0;
+    margin-bottom: 3rem;
+  }
+  .meta b { color: var(--text); font-weight: 500; }
+
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+    margin-bottom: 3.2rem;
+  }
+  nav.toc p {
+    margin: 0 0 0.6rem;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  nav.toc ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    columns: 2;
+    column-gap: 1.5rem;
+  }
+  nav.toc li { break-inside: avoid; margin-bottom: 0.35rem; }
+  nav.toc a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.92rem;
+  }
+  nav.toc a:hover { color: var(--accent); }
+
+  section { margin-bottom: 2.6rem; scroll-margin-top: 1.5rem; }
+  .num {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.82rem;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+  }
+  h2 {
+    font-family: "Sora", system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 1.32rem;
+    margin: 0.25rem 0 0.9rem;
+    letter-spacing: -0.005em;
+  }
+  p { margin: 0 0 0.9rem; max-width: 66ch; }
+  ul { margin: 0 0 0.9rem; padding-left: 1.2rem; max-width: 62ch; }
+  li { margin-bottom: 0.45rem; }
+  a { color: var(--accent); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 1.4rem;
+    font-size: 0.92rem;
+  }
+  .table-wrap { overflow-x: auto; }
+  th, td {
+    text-align: left;
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.94rem;
+    margin: 0.9rem 0 0;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding-top: 1.6rem;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+  }
+  footer a { color: var(--text-muted); text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Privacy Policy</p>
+  <h1>Wormrise</h1>
+  <p class="sub">What we collect, why, and who we share it with — for the Wormrise mobile app, published by Eureka Digital Labs (Pty) Ltd.</p>
+  <div class="meta">
+    <span>Effective date: <b>2 October 2026</b></span>
+    <span>Applies to: <b>Android app, package com.eurekadigilabs.wormrise</b></span>
+    <span>Contact: <b>eric.nigma@gmail.com</b></span>
+  </div>
+
+  <nav class="toc">
+    <p>On this page</p>
+    <ol>
+      <li><a href="#overview">1. Overview</a></li>
+      <li><a href="#data-we-collect">2. Data we collect</a></li>
+      <li><a href="#third-parties">3. Third-party services</a></li>
+      <li><a href="#local-storage">4. What stays on your device</a></li>
+      <li><a href="#permissions">5. App permissions</a></li>
+      <li><a href="#children">6. Children's privacy</a></li>
+      <li><a href="#choices">7. Your choices</a></li>
+      <li><a href="#retention">8. Data retention &amp; deletion</a></li>
+      <li><a href="#changes">9. Changes to this policy</a></li>
+      <li><a href="#contact">10. Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="overview">
+    <span class="num">01</span>
+    <h2>Overview</h2>
+    <p>Wormrise is a single-player arcade game by Eureka Digital Labs (Pty) Ltd ("we", "us"). It does not require an account, does not collect your name, email or contact details, has no in-app purchases, and does not sell personal data. The sections below explain the limited data the app and its advertising partner handle.</p>
+  </section>
+
+  <section id="data-we-collect">
+    <span class="num">02</span>
+    <h2>Data we collect</h2>
+    <p>We — Eureka Digital Labs (Pty) Ltd, the developer of Wormrise — do not operate our own backend server and do not directly collect or store any personal data ourselves. All gameplay data (see Section 4) stays on your device. The only data handling beyond your device is performed by the third-party services below, on their own systems, under their own privacy policies.</p>
+    <p>When the app starts it downloads a small settings file (which controls how often ads may appear) from GitHub Pages, where this policy is hosted. That request sends no personal data from the app; like any web request, GitHub receives your IP address under its own privacy policy.</p>
+  </section>
+
+  <section id="third-parties">
+    <span class="num">03</span>
+    <h2>Third-party services</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Service</th><th>Purpose</th><th>Policy</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google AdMob (incl. User Messaging Platform)</td>
+            <td>Shows interstitial ads between mornings and optional rewarded video ads (for example a second helping when your bird gets too hungry, or saving an Early Bird streak). Asks for your consent where the law requires it. May use your device's advertising ID, approximate location (from IP address), app interactions and diagnostics to serve and measure ads, which can include personalization depending on your consent and device ad settings.</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a><br><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses data from partner apps</a></td>
+          </tr>
+          <tr>
+            <td>GitHub Pages</td>
+            <td>Hosts this policy and the app's ad-settings file.</td>
+            <td><a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub privacy statement</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout">
+      <p>You can reset your advertising ID or opt out of personalized ads at any time from your device's settings (Settings → Privacy → Ads on most Android versions). Players in the EEA, UK and Switzerland can change their ad consent at any time with the PRIVACY SETTINGS button in the game's menu.</p>
+    </div>
+  </section>
+
+  <section id="local-storage">
+    <span class="num">04</span>
+    <h2>What stays on your device</h2>
+    <p>Your progress — best scores, coins, unlocked birds, upgrades, your Worm Book, streaks, daily missions and settings — and a local gameplay event log are saved in the app's own storage on your device. They are not transmitted to us. Uninstalling the app deletes this data.</p>
+    <p>The game reads your device's clock to know when it is dawn where you are (golden worms only come up between 5 and 9 AM local time). The time is only used on your device and is never sent anywhere.</p>
+    <p>If you allow notifications, the app schedules its optional dawn reminders (for example, "The golden worms are up!") locally on your device. No push service or server is involved and nothing about them is sent anywhere. You can turn them off in the game's Settings or in your phone's notification settings.</p>
+  </section>
+
+  <section id="permissions">
+    <span class="num">05</span>
+    <h2>App permissions</h2>
+    <ul>
+      <li><b>Internet / network state</b> — to load ads, show the consent form and download the ad-settings file.</li>
+      <li><b>Vibration</b> — for haptic feedback during play (can be turned off in the game's settings).</li>
+      <li><b>Advertising ID</b> — used by Google AdMob as described above.</li>
+      <li><b>Notifications</b> (and run-at-startup, so reminders survive a phone restart) — only for the optional dawn reminders, which are scheduled on your device. Asked for in the game, never required.</li>
+    </ul>
+  </section>
+
+  <section id="children">
+    <span class="num">06</span>
+    <h2>Children's privacy</h2>
+    <p>Wormrise is not directed at children under 13 and we do not knowingly collect personal data from children. Ads in the app are limited to content rated suitable for general audiences with parental guidance (PG). If you believe a child has provided us with personal data, contact us using the details below and we will address it.</p>
+  </section>
+
+  <section id="choices">
+    <span class="num">07</span>
+    <h2>Your choices</h2>
+    <ul>
+      <li>Rewarded video ads are always optional — the game never requires you to watch one.</li>
+      <li>Change your ad consent from the in-game PRIVACY SETTINGS button (where it applies).</li>
+      <li>Reset or limit ad personalization from your device's ad settings.</li>
+      <li>Uninstall the app to remove all locally stored progress.</li>
+    </ul>
+  </section>
+
+  <section id="retention">
+    <span class="num">08</span>
+    <h2>Data retention &amp; deletion</h2>
+    <p>Since we don't operate a backend or hold an account system, we have no server-side copy of your data to retain or delete — your local save is removed when you uninstall the app. For data held by Google (advertising ID and ad data), use Google's own account and data controls, or contact us and we'll point you to the right place.</p>
+  </section>
+
+  <section id="changes">
+    <span class="num">09</span>
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we'll update the effective date at the top of this page. Continued use of the app after a change means you accept the updated policy.</p>
+  </section>
+
+  <section id="contact">
+    <span class="num">10</span>
+    <h2>Contact</h2>
+    <p>Questions about this policy or your data? Email <a href="mailto:eric.nigma@gmail.com">eric.nigma@gmail.com</a> (Eureka Digital Labs (Pty) Ltd).</p>
+  </section>
+
+  <footer>
+    Wormrise by Eureka Digital Labs (Pty) Ltd — this page is the privacy policy referenced in the app's Google Play Store listing.
+  </footer>
+</div>
+</body>
+</html>
